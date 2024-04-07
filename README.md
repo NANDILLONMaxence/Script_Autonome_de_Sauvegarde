@@ -98,7 +98,7 @@ Add the following line for a daily backup at 2 AM, for example:
 ```
 or
 
-a weekly backup at 2 AM every Sunday:
+A weekly backup at 2 AM every Sunday:
 ```
 0 2 * * 0 /path/to/your/script/backup.sh
 ```
@@ -113,5 +113,5 @@ Also, verify that the operation completed successfully after automation.
 
 - You should see the line you added, confirming that the backup task is scheduled to run automatically every 7 days.
 
-These steps should enable you to set up an automatic backup system for your PostgreSQL database to your TrueNAS server, ensuring the security and availability of your data.
+#### These steps should enable you to set up an automatic backup system for your PostgreSQL database to your TrueNAS server, ensuring the security and availability of your data.
 ----
